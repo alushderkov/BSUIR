@@ -1,0 +1,3 @@
+D:/Учёба/КТ/ЛР2/GnuWin32/bin/cmake-build-debug/CMakeFiles/lexer.dir
+D:/Учёба/КТ/ЛР2/GnuWin32/bin/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Учёба/КТ/ЛР2/GnuWin32/bin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
