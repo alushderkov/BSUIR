@@ -11,7 +11,7 @@ This repository is a structured collection of engineering and IT projects coveri
 - **Data Analysis & Computational Methods** – Statistical computations, numerical methods, and machine learning fundamentals.
 - **Technical Writing & Documentation** – Well-structured reports and methodology explanations to complement technical implementations.
 
-## Why This Repository? 🪽
+## Why This Repository?🪽
 - Demonstrates proficiency in **problem-solving, software design, and engineering principles**.
 - Covers a diverse set of **practical applications and coding paradigms**.
 - Continuously expanding with new projects and **real-world technical challenges**.
