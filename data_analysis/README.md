@@ -49,4 +49,4 @@ The methodology and conclusions of this work can be useful for professionals in 
 **Ushakov A. D.**, student at the Belarusian State University of Informatics and Radioelectronics (BSUIR), Faculty of Computer Systems and Networks.
 
 ## Acknowledgments 🙌
-Special thanks to **Instructor N. S. Petyukevich** for valuable guidance and scientific supervision during this work.
+Special thanks to **Tutor N. S. Petyukevich** for valuable guidance and scientific supervision during this work.
