@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section is dedicated to hardware architecture and operating systems. It includes methodological materials and study projects that cover key concepts of computer systems—from digital logic to process and thread management in OS.
+This section is dedicated to hardware architecture and operating systems. It includes methodological materials and study projects that cover key concepts of computer systems — from digital logic to process and thread management in OS.
 
 ## Structure
 
