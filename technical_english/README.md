@@ -1,8 +1,8 @@
-# Technical English 📚 
+# Technical English 📖
 
-This section contains materials for improving technical English skills, focusing on IT and computer science topics. It includes theoretical resources, practical exercises, and grammar guides.  
+This section contains materials for improving technical English skills, focusing on IT and computer science topics. It includes theoretical resources, practical exercises, and grammar guides.<br><br>  
 
-## Modules 📖  
+## Modules 📑
 
 The main content is divided into thematic modules covering various aspects of technical English:  
 
@@ -15,13 +15,13 @@ The main content is divided into thematic modules covering various aspects of te
 - **Module 7: Information Systems 🗄️** – Databases, data management, and enterprise solutions.  
 - **Module 8: Computer Programming 🧑‍💻** – Basics of programming and software development.  
 - **Module 9: Digital Security 🔐** – Cybersecurity principles and best practices.  
-- **Module 10: Job Hunting 💼** – Resume writing, interviews, and job applications.  
+- **Module 10: Job Hunting 💼** – Resume writing, interviews, and job applications.<br><br>  
 
 ## Additional Resources 📑  
 
-- **Computer Concepts 🖥️** – Introduction to fundamental computer science concepts.  
-- **Software Fundamentals 🏗️** – Overview of software development and engineering.  
-- **Oxford English Grammar Course (Intermediate) 📘** – Grammar reference for academic and technical writing.  
-- **Summarizing Articles Guide ✍️** – Techniques for summarizing technical texts effectively.  
+- **Computer Concepts** – Introduction to fundamental computer science concepts.  
+- **Software Fundamentals** – Overview of software development and engineering.  
+- **Oxford English Grammar Course (Intermediate)** – Grammar reference for academic and technical writing.  
+- **Summarizing Articles Guide** – Techniques for summarizing technical texts effectively.<br>
 
 This section is useful for students, IT professionals, and anyone looking to enhance their technical English proficiency. 🚀  
