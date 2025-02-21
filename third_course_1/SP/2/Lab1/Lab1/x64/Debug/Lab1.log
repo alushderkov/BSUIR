@@ -1,0 +1,22 @@
+﻿  FileSorter.cpp
+D:\3Curse\SP\2\Lab1\FileSorter.h(13,56): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "FileSorter.cpp")
+  
+D:\3Curse\SP\2\Lab1\FileSorter.h(13,108): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "FileSorter.cpp")
+  
+D:\3Curse\SP\2\Lab1\FileSorter.h(14,76): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "FileSorter.cpp")
+  
+D:\3Curse\SP\2\Lab1\FileSorter.h(16,81): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "FileSorter.cpp")
+  
+D:\3Curse\SP\2\Lab1\FileSorter.h(17,70): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  (компиляция исходного файла "FileSorter.cpp")
+  
+D:\3Curse\SP\2\Lab1\FileSorter.cpp(2,85): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+D:\3Curse\SP\2\Lab1\FileSorter.cpp(36,60): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+D:\3Curse\SP\2\Lab1\FileSorter.cpp(36,112): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+D:\3Curse\SP\2\Lab1\FileSorter.cpp(43,80): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+D:\3Curse\SP\2\Lab1\FileSorter.cpp(61,74): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  Lab1.vcxproj -> D:\3Curse\SP\2\Lab1\x64\Debug\Lab1.exe

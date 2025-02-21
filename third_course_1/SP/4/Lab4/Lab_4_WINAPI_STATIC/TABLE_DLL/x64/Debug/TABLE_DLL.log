@@ -1,0 +1,25 @@
+﻿  HeaderTable.cpp
+  Cell.cpp
+  Table.cpp
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Table.h(65,33): warning C4251: "Table::items": "std::vector<CustomListItem,std::allocator<CustomListItem>>" должен иметь dll-интерфейс для использования клиентами "Table"
+  (компиляция исходного файла "Table.cpp")
+      D:\visualStudio\app\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<CustomListItem,std::allocator<CustomListItem>>"
+  
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Table.cpp(172,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Fonts.cpp
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Fonts.cpp(1,9): warning C4005: UNICODE: изменение макроопределения
+      D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Fonts.cpp(1,9):
+      "UNICODE" ранее объявлен в командной строке
+  
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Fonts.cpp(2,9): warning C4005: _UNICODE: изменение макроопределения
+      D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Fonts.cpp(2,9):
+      "_UNICODE" ранее объявлен в командной строке
+  
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Fonts.cpp(14,60): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Fonts.cpp(37,60): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  dllmain.cpp
+  LINK : не найден или не выполнена сборка D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\x64\Debug\TABLE_DLL.dll при последней инкрементной компоновке; выполняется полная компоновка
+     Создается библиотека D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\x64\Debug\TABLE_DLL.lib и объект D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\x64\Debug\TABLE_DLL.exp
+  TABLE_DLL.vcxproj -> D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\x64\Debug\TABLE_DLL.dll

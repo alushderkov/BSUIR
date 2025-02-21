@@ -1,0 +1,10 @@
+﻿  coursework.cpp
+D:\3Curse\cursach\dispetcher\stdafx.h(21,16): warning C4091: typedef : пропускается слева от "THREADS", когда ни одна переменная не объявлена
+  (компиляция исходного файла "coursework.cpp")
+  
+D:\3Curse\cursach\dispetcher\coursework.cpp(190,18): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\3Curse\cursach\dispetcher\coursework.cpp(375,31): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\3Curse\cursach\dispetcher\coursework.cpp(380,49): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\3Curse\cursach\dispetcher\coursework.cpp(547,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\3Curse\cursach\dispetcher\coursework.cpp(569,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Project1.vcxproj -> D:\3Curse\cursach\dispetcher\x64\Debug\Project1.exe

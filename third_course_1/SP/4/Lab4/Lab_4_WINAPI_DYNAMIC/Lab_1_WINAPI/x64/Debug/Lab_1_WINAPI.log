@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_DYNAMIC\Lab_1_WINAPI\main.cpp(232,15): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_DYNAMIC\Lab_1_WINAPI\main.cpp(439,23): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_DYNAMIC\Lab_1_WINAPI\main.cpp(446,32): warning C4244: =: преобразование "LRESULT" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_DYNAMIC\Lab_1_WINAPI\main.cpp(453,32): warning C4244: =: преобразование "LRESULT" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_DYNAMIC\Lab_1_WINAPI\main.cpp(731,25): warning C4244: инициализация: преобразование "WPARAM" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_DYNAMIC\Lab_1_WINAPI\main.cpp(741,25): warning C4244: инициализация: преобразование "WPARAM" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_DYNAMIC\Lab_1_WINAPI\main.cpp(763,23): warning C4244: инициализация: преобразование "WPARAM" в "int", возможна потеря данных
+  Lab_1_WINAPI.vcxproj -> D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_DYNAMIC\x64\Debug\Lab_1_WINAPI.exe

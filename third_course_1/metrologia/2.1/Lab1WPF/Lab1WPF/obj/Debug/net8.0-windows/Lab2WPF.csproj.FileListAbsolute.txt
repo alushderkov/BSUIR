@@ -1,0 +1,76 @@
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.exe
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.deps.json
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.runtimeconfig.json
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.dll
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.pdb
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\MainWindow.baml
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\App.g.cs
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF_MarkupCompile.cache
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.g.resources
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.AssemblyInfoInputs.cache
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.AssemblyInfo.cs
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.csproj.CoreCompileInputs.cache
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.dll
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\refint\Lab2WPF.dll
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.pdb
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.genruntimeconfig.cache
+D:\BSUIR\Semester5\Metrology\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\ref\Lab2WPF.dll
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.exe
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.deps.json
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.runtimeconfig.json
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.dll
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.pdb
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\MainWindow.baml
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\App.g.cs
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF_MarkupCompile.cache
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.g.resources
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.GeneratedMSBuildEditorConfig.editorconfig
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.AssemblyInfoInputs.cache
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.AssemblyInfo.cs
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.csproj.CoreCompileInputs.cache
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.dll
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\refint\Lab2WPF.dll
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.pdb
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.genruntimeconfig.cache
+K:\3 course\5 semestr\Metra\Lab2WPF\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\ref\Lab2WPF.dll
+D:\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.exe
+D:\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.deps.json
+D:\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.runtimeconfig.json
+D:\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.dll
+D:\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.pdb
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\App.g.cs
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF_MarkupCompile.cache
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.g.resources
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.AssemblyInfoInputs.cache
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.AssemblyInfo.cs
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.csproj.CoreCompileInputs.cache
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.dll
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\refint\Lab2WPF.dll
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.pdb
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.genruntimeconfig.cache
+D:\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\ref\Lab2WPF.dll
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.exe
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.deps.json
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.runtimeconfig.json
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.dll
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\bin\Debug\net8.0-windows\Lab2WPF.pdb
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\MainWindow.baml
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\App.g.cs
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF_MarkupCompile.cache
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.g.resources
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.AssemblyInfoInputs.cache
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.AssemblyInfo.cs
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.csproj.CoreCompileInputs.cache
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.dll
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\refint\Lab2WPF.dll
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.pdb
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\Lab2WPF.genruntimeconfig.cache
+D:\3Curse\metrologia\Lab2WPF\Lab1WPF\Lab1WPF\obj\Debug\net8.0-windows\ref\Lab2WPF.dll

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/1/jdbc-statement-create" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/10/java-web-expression-filter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/11/java-web-guess-number-cookie" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/12/java-web-auth-filter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/13/java-web-school" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/14/java-web-error" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2/jdbc-statement-prepared" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3/jdbc-statement-callable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/4/jdbc-transactions-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/5/java-http-task-manager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/6/java-web-simple-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/7/java-web-prg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/8/java-web-servlet-life-cycle1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/9/java-web-servlet-life-cycle2" vcs="Git" />
+  </component>
+</project>

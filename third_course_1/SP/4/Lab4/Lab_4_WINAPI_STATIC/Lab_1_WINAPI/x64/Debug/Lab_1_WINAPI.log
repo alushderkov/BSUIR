@@ -1,0 +1,14 @@
+﻿  main.cpp
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\TABLE_DLL\Table.h(65,33): warning C4251: "Table::items": "std::vector<CustomListItem,std::allocator<CustomListItem>>" должен иметь dll-интерфейс для использования клиентами "Table"
+  (компиляция исходного файла "main.cpp")
+      D:\visualStudio\app\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+       см. объявление "std::vector<CustomListItem,std::allocator<CustomListItem>>"
+  
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\Lab_1_WINAPI\main.cpp(68,15): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\Lab_1_WINAPI\main.cpp(311,23): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\Lab_1_WINAPI\main.cpp(318,32): warning C4244: =: преобразование "LRESULT" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\Lab_1_WINAPI\main.cpp(325,32): warning C4244: =: преобразование "LRESULT" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\Lab_1_WINAPI\main.cpp(554,13): warning C4065: оператор switch содержит метку "default", но не содержит ни одной метки "case"
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\Lab_1_WINAPI\main.cpp(829,25): warning C4244: инициализация: преобразование "WPARAM" в "int", возможна потеря данных
+D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\Lab_1_WINAPI\main.cpp(851,23): warning C4244: инициализация: преобразование "WPARAM" в "int", возможна потеря данных
+  Lab_1_WINAPI.vcxproj -> D:\3Curse\SP\4\Lab4\Lab_4_WINAPI_STATIC\x64\Debug\Lab_1_WINAPI.exe

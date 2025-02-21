@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z9hln9ieOJg=",
+  "success": true,
+  "projectFilePath": "D:\\3Curse\\metrologia\\1\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\antlr4.runtime.standard\\4.13.1\\antlr4.runtime.standard.4.13.1.nupkg.sha512"
+  ],
+  "logs": []
+}

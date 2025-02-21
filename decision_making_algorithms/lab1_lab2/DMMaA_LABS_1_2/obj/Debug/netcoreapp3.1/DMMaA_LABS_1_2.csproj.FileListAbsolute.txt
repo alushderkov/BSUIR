@@ -1,0 +1,120 @@
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.exe
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.deps.json
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.json
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.dev.json
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.AssemblyReference.cache
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.cache
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.lref
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.g.resources
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfoInputs.cache
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfo.cs
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.CoreCompileInputs.cache
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+C:\Users\Sanya\Desktop\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.genruntimeconfig.cache
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.exe
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.deps.json
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.json
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.dev.json
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.AssemblyReference.cache
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\App.g.cs
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.cache
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.lref
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.g.resources
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfoInputs.cache
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfo.cs
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.CoreCompileInputs.cache
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\БГУИР\Прочее\3 курс\кал с 6-ого сема\МиАПР лабы\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.genruntimeconfig.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.exe
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.deps.json
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.json
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.dev.json
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.AssemblyReference.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\App.g.cs
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.lref
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.g.resources
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfoInputs.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfo.cs
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.CoreCompileInputs.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\БГУИР\3 курс\6 семестр\МиАПР\Прочие\DMMaA_LABS_1_2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.genruntimeconfig.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.exe
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.deps.json
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.json
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.dev.json
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.AssemblyReference.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\App.g.cs
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.lref
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.g.resources
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfoInputs.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfo.cs
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.CoreCompileInputs.cache
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\БГУИР\3 курс\6 семестр\МиАПР\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.genruntimeconfig.cache
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.exe
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.deps.json
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.json
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.dev.json
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\App.g.cs
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.cache
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.lref
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.g.resources
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfoInputs.cache
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfo.cs
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.CoreCompileInputs.cache
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.sourcelink.json
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\bsuir\decision_making_algorithms\old\Лабораторные\Лаба1-2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.genruntimeconfig.cache
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.exe
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.deps.json
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.json
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.runtimeconfig.dev.json
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\bin\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\App.g.cs
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.cache
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2_MarkupCompile.lref
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.g.resources
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfoInputs.cache
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.AssemblyInfo.cs
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.csproj.CoreCompileInputs.cache
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.sourcelink.json
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.dll
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.pdb
+D:\bsuir\decision_making_algorithms\lab1_lab2\DMMaA_LABS_1_2\obj\Debug\netcoreapp3.1\DMMaA_LABS_1_2.genruntimeconfig.cache

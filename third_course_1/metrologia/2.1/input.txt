@@ -1,0 +1,97 @@
+    static void Main()
+    {
+        Console.WriteLine("Console calculator");
+        Console.WriteLine("Operations: +, -, *, /, ^");
+        while (true)
+        {
+            try
+            { 
+                Console.Write("The first number: ");
+                double num1 = ReadNumber();
+
+                Console.Write("select operation +, -, *, /, ^: ");
+                string operation = Console.ReadLine().Trim().ToLower();
+                double result = 0;
+
+                if (operation == "sqrt")
+                {
+                    result = CalculateSquareRoot(num1);
+                }
+                else
+                {
+                    Console.Write("second number: ");
+                    double num2 = ReadNumber();
+                    result = PerformOperation(num1, num2, operation);
+                }
+
+                Console.WriteLine($"Result: {result}");
+
+
+                Console.Write("u want more? y/n: ");
+                string continueCalculation = Console.ReadLine().Trim().ToLower();
+                if (continueCalculation != "y")
+                {
+                    break;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+
+    static double ReadNumber()
+    {
+        while (true)
+        {
+            try
+            {
+                double number = Convert.ToDouble(Console.ReadLine());
+                return number;
+            }
+            catch (FormatException)
+            {
+                Console.Write("incorrect format. Please enter a number: ");
+            }
+        }
+    }
+
+    static double PerformOperation(double num1, double num2, string operation)
+    { 
+	   for(){
+        for(){}
+        switch (operation)
+        {
+            case "+":
+                return num1 + num2;
+            case "-":
+                return num1 - num2;
+            case "*":
+                return num1 * num2;
+            case "/":
+                if (num2 != 0)
+                {
+				if (){}
+                    return num1 / num2;
+                }
+                else
+                {
+                    throw new DivideByZeroException("Error");
+                }
+            case "^":
+                return Math.Pow(num1, num2);
+            default:
+                throw new InvalidOperationException("Error");
+        }
+	   }
+    }
+
+    static double CalculateSquareRoot(double num)
+    {
+        if (num < 0)
+        {
+            throw new ArgumentException("Error");
+        }
+        return Math.Sqrt(num);
+    }

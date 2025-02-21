@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Fonts">
+      <UniqueIdentifier>{89ac2b9d-ff58-401b-b6af-c5a8e25086a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Fonts">
+      <UniqueIdentifier>{dedc2648-4e04-4782-9ccf-83dcd50d2a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Listbox">
+      <UniqueIdentifier>{11e12356-8b68-4944-8bae-23790eb05297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Table">
+      <UniqueIdentifier>{46e398c6-4b0b-4cbc-880b-20edb5730f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Listbox">
+      <UniqueIdentifier>{0a23ba81-d0a9-4637-b702-5eba7232b7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Table">
+      <UniqueIdentifier>{c7fc1063-233f-4620-b429-97917133891d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\CustomDialogues">
+      <UniqueIdentifier>{8e5e684f-e6dd-44cb-ad85-c1aaa4860755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\CustomDialogues">
+      <UniqueIdentifier>{41ecfeef-089f-4f7e-9eeb-26c51ff06734}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="File.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorter.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandling.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FontDialogBox.c">
+      <Filter>Исходные файлы\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="FontModifier.c">
+      <Filter>Исходные файлы\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomListBox.c">
+      <Filter>Исходные файлы\Listbox</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericUpDown.c">
+      <Filter>Исходные файлы\Listbox</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTable.c">
+      <Filter>Исходные файлы\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="TableElement.c">
+      <Filter>Исходные файлы\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="TableHeader.c">
+      <Filter>Исходные файлы\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDialog.c">
+      <Filter>Исходные файлы\CustomDialogues</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrorHandling.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorter.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FontDialogBox.h">
+      <Filter>Файлы заголовков\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="FontModifier.h">
+      <Filter>Файлы заголовков\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomListBox.h">
+      <Filter>Файлы заголовков\Listbox</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericUpDown.h">
+      <Filter>Файлы заголовков\Listbox</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomTable.h">
+      <Filter>Файлы заголовков\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="TableElement.h">
+      <Filter>Файлы заголовков\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="TableHeader.h">
+      <Filter>Файлы заголовков\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDialog.h">
+      <Filter>Файлы заголовков\CustomDialogues</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
