@@ -3,10 +3,10 @@
 import {CanvasClass} from "./class_canvas.js";
 
 export class AlgorithmCanvas {
-    algorithm;
+    classes;
 
-    constructor(algorithm) {
-        this.algorithm = algorithm;
+    constructor(classes) {
+        this.classes = classes;
     }
 
     drawAlgorithm(canvas) {
@@ -20,7 +20,7 @@ export class AlgorithmCanvas {
             return result;
         }
 
-        for (let elem of this.algorithm._classes) {
+        for (let elem of this.classes) {
             let canvas_class = new CanvasClass(elem, getRandomColor() );
             canvas_class.drawClass(canvas);
         }

@@ -7,7 +7,7 @@ import {calcDist} from "./functions.js";
 export class K_mid_algorithm {
     _points;
     _kernels;
-    _classes;
+    _classes = [];
     constructor(classes) {
         this._points = [];
         this._kernels = [];
@@ -83,7 +83,21 @@ export class K_mid_algorithm {
     }
 
     isArraysEqual(firstArray, secondArray) {
-        return firstArray.toString() === secondArray.toString();
+
+        if (firstArray.length !== secondArray.length) {
+            return false;
+        }
+
+        for (let i = 0; i < firstArray.length; i++) {
+            const firstObj = firstArray[i];
+            const secondObj = secondArray[i];
+
+            if (firstObj.x !== secondObj.x || firstObj.y !== secondObj.y) {
+                return false;
+            }
+        }
+
+        return true;
     }
     isEnd() {
         let result;
@@ -92,7 +106,6 @@ export class K_mid_algorithm {
         Object.assign(oldKernels, this._kernels);
         this.defineNewKernels();
         result = this.isArraysEqual(oldKernels, this._kernels);
-
         return result;
     }
 

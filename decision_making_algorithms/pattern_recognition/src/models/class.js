@@ -7,9 +7,9 @@ export class Class {
     points;
     _kernel;
 
-    constructor() {
+    constructor(kernel) {
         this.points = [];
-        this._kernel = new Point();
+        this._kernel = kernel ? kernel : new Point();
     }
 
     get kernel() { return this._kernel; }

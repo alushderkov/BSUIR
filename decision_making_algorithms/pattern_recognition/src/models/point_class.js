@@ -11,7 +11,7 @@ export class Point {
         }
 
         this._x_coordinate = x ? x : random(1, 600);
-        this._y_coordinate = y ? y : random(1, 300);
+        this._y_coordinate = y ? y : random(1, 600);
 
     }
 
