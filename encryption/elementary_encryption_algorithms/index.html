@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+    .hidden {
+        display: none;
+    }
+
+    :root {
+        --back: #121517;
+        --font-colour: #d9d9d9;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        margin: 0;
+
+
+        font-family: "Montserrat", serif;
+        color: var(--font-colour);
+
+        font-size: 20px;
+        line-height: 163%;
+        letter-spacing: -0.02em;
+
+        background-color: var(--back);
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h1, h2 {
+        font-weight: 800;
+        margin: 0;
+    }
+
+    a {
+        color: var(--font-colour);
+        text-decoration: none;
+        transition: opacity 0.3s;
+    }
+
+    a:hover {
+        opacity: 0.8;
+    }
+
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .text-gradient {
+        background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .logo {
+        font-weight: 800;
+        font-size: 37px;
+        line-height: 109%;
+        letter-spacing: -0.03em;
+        background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+
+    .header {
+        padding: 50px 0;
+    }
+
+    .header .container {
+        display: flex;
+        align-items: center;
+        gap: 80px
+    }
+
+    .header__link + .header__link {
+        margin-left: 95px;
+    }
+
+    .main {
+
+    }
+
+    .title {
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 109%;
+        letter-spacing: -0.03em;
+        color: #fff;
+    }
+
+    .welcome__desk {
+        max-width: 575px;
+    }
+
+    .welcome__title {
+        margin-bottom: 55px;
+        position: relative;
+    }
+
+    .result {
+        color: #fff;
+        font-weight: 639;
+        font-size: 30px;
+        letter-spacing: -0.02em;
+    }
+
+    .welcome__title::before {
+        content: "";
+
+        position: absolute;
+        z-index: -5;
+
+        left: 40px;
+        top: 80px;
+
+        width: 140px;
+        height: 140px;
+
+        border-radius: 100%;
+        background: linear-gradient(245deg, rgba(35, 114, 73, 0.55) 0%,
+        rgba(53, 198, 107, 0.73) 51.85%);
+        filter: blur(90px);
+    }
+
+    .container_ {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        gap: 15px;
+        margin-bottom: 45px;
+    }
+
+    .welcome__text {
+        font-family: "Montserrat", serif;
+        max-height: 30px;
+        resize: none;
+        font-size: 20px;
+        border-radius: 20px;
+        padding-left: 15px;
+    }
+
+    .welcome__text_input {
+        width: 335px;
+    }
+
+    .welcome__text_output {
+        width: 335px;
+        min-height: 74px;
+        border-radius: 83px;
+        padding-left: 20px;
+        padding-top: 23px;
+    }
+
+    .welcome__text_key {
+        width: 168px;
+    }
+
+    .welcome__btns-wrapper {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 10px;
+
+    }
+
+
+    .btn {
+        padding: 20px 34px;
+        border-radius: 83px;
+        background: linear-gradient(210deg, #237249 0%, #35c66b 100%);
+        font-weight: 639;
+        font-size: 24px;
+        letter-spacing: -0.02em;
+        color: #fff;
+        transition: 1s;
+        max-width: 336px;
+    }
+
+    .btn:hover {
+        color: #fff;
+        background: linear-gradient(30deg, #237249 0%, #35c66b 100%);
+    }
+
+    .link {
+        padding: 20px 54px;
+        border: 1px solid #dadada;
+        border-radius: 83px;
+        background: var(--back);
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: -0.03em;
+        color: var(--font-colour);
+        min-width: 168px;
+        text-align: center;
+    }
+
+    .download {
+        padding: 20px 24px;
+        border: 1px solid #dadada;
+        border-radius: 83px;
+        background: var(--back);
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: -0.03em;
+        color: var(--font-colour);
+        min-width: 168px;
+        text-align: center;
+    }
+
+    .welcome {
+        margin-top: 30px;
+    }
+
+    .welcome .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .stats {
+        display: flex;
+    }
+
+
+</style>
+
+<body>
+<header class="header">
+    <div class="container">
+        <a href="" class="logo text-gradient header__logo">Encryption</a>
+
+        <nav class="header__nav">
+            <a href="" class="header__link">Variant 2</a>
+            <a href="" class="header__link">Ushakov Alexandr</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <section class="welcome">
+        <div class="container">
+            <div class="welcome__desk">
+                <h1 class="title welcome__title">Algorithm<br>
+                    <span class="text-gradient">Rail-Fence</span>
+                </h1>
+                <div class ="container_">
+                    <textarea class="welcome__text welcome__text_input welcome__text_input_left" placeholder="TEXT"></textarea>
+                    <textarea class="welcome__text welcome__text_key welcome__text_key_left" placeholder="KEY"></textarea>
+                </div>
+                <div class="welcome__btns-wrapper">
+                    <a href="" class="btn">
+                        <span class="cipher cipher_left">Ciphering</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="decode decode_left">Decoding</span>
+                    </a>
+                    <input type="file" class="hidden hidden_left">
+                    <a href="" class="link link_left">File</a>
+                </div>
+                <div class="stats">
+                    <p class="result">
+                        Result
+                    </p>
+                </div>
+                <div class ="container_">
+                    <textarea class="welcome__text welcome__text_output welcome__text_output_left" placeholder="OUTPUT" readonly></textarea>
+                    <a href="" class="link download download_left">Download</a>
+                </div>
+            </div>
+            <div class="welcome__desk">
+                <h1 class="title welcome__title">Vigenère, key
+                    <span class="text-gradient">Progressive</span>
+                </h1>
+                <div class ="container_ ">
+                    <textarea class="welcome__text welcome__text_input welcome__text_input_right" placeholder="TEXT"></textarea>
+                    <textarea class="welcome__text welcome__text_key welcome__text_key_right" placeholder="KEY"></textarea>
+                </div>
+                <div class="welcome__btns-wrapper">
+                    <a href="" class="btn">
+                        <span class="cipher cipher_right">Ciphering</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="decode decode_right">Decoding</span>
+                    </a>
+                    <input type="file" class="hidden hidden_right">
+                    <a href="" class="link link_right">File</a>
+                </div>
+                <div class="stats">
+                    <p class="result">
+                        Result
+                    </p>
+                </div>
+                <div class ="container_">
+                    <textarea class="welcome__text welcome__text_output welcome__text_output_right" placeholder="OUTPUT" readonly></textarea>
+                    <a href="" class="link download download_right">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+  "use strict"
+
+  // Два алгоритма - предоставить выбор
+  // Несколько файлов с тестами
+  // Файл с выводом результата
+  // Отчёт с тестами и визуализацией
+  // Для алгоритма Виженера в отчёте необходимо изобразить таблицу
+  // Отдельно два ключа: чётный, нечётный для "ж/д изгороди"
+  // Для русского языка буква "ё" также должна обрабатываться
+  // Ключ вводится с клавиатуры и никуда не записывается
+  // Если на вход шифратора подан уже зашифрованный текст, это не значит,
+  // что после шифрования он снова преобразуется в исходный текст:
+  // ЭТО СЛУЧАЙНОСТЬ И САМЫЙ НЕЖЕЛАЕМЫЙ СЛУЧАЙ
+
+  /* Методы алгоритма к реализации:
+
+    * метод адаптации ключа:
+      - на вход метода: ключ
+      - задача: выделить рабочий ключ
+      - на выходе: рабочий ключ или индикатор неверного ключа (если ни один
+      элемент не подходит)
+
+    * метод шифрования: только заданный текст, остальные символы игнорировать
+      - на вход метода:
+        * исходный текст
+        * ключ
+      - особенности:
+        * в алгоритме "ж/д изгороди" сделать проверку на чётность/нечётность ключа
+          отдельной функцией и, вероятно, тернарным оператором выполнить две
+          различные функции под каждый ключ
+        * для функций под разные ключи написать "подфункции", если код будет
+          похож, чтобы он не совпадал
+
+    * метод дешифрирования:
+      - на вход метода:
+        * зашифрованный текст
+        * ключ
+      - на выходе: исходный текст
+
+    ЗАДАЧА: * наследовать от класса "алгоритм" два подкласса для разных алгоритмов
+              и переопределить методы на специализированные
+
+            * общие методы реализовать в базовом классе "алгоритм"
+
+   */
+
+  class Algorithm {
+
+    readFile(input) {
+
+      return new Promise((resolve, reject) =>{
+        let file = input.files[0];
+
+        let reader = new FileReader();
+
+        reader.onload = () => {
+          console.log(`Результат чтения из файла: ${reader.result}`);
+          resolve(reader.result);
+        }
+
+        reader.onerror = () => {
+          reject(reader.error);
+        }
+
+        reader.readAsText(file);
+      });
+
+    }
+
+    writeFile(link, text) {
+      console.log(`Текст для записи в файл: ${text}`);
+
+      let data = new Blob([text],
+        {type: 'text/plain'});
+      let url = window.URL.createObjectURL(data);
+      let fileName = `output.txt`;
+
+      link.href = url;
+      link.download = fileName;
+    }
+
+    formatText(string) {
+      const regExp = /[а-яё]/;
+      let result = ``;
+      string = string.toLowerCase();
+
+      for (let i = 0; i < string.length; i++) {
+
+        if ( regExp.test( string[i] ) ) {
+          result += string[i];
+        }
+      }
+
+      return result;
+    }
+
+    keyAdaptation(key) {};
+    ciphering(plain_text, key) {};
+    decoding(cipher_text, key) {};
+
+
+  }
+
+  class Rail_Fence extends Algorithm {
+
+    keyAdaptation(key) {
+
+      if (key) {
+        const regExp = /[0-9]/;
+        let result = ``;
+
+        for (let i = 0; i < key.length; i++) {
+
+          if (regExp.test(key[i])) {
+            result += key[i];
+          }
+        }
+
+        return result === `` ? `` : Number(result);
+
+      } else {
+
+        return ``;
+      }
+    }
+
+    isValidKey(key) {
+      let result = true;
+
+      if (key === ``) {
+        alert(`Ошибка! Ключ не распознан, попробуйте ввести заново`);
+        result = false;
+      }
+
+      return result;
+    }
+
+    isNecessaryToCipher(plain_text, key) {
+      let result = true;
+
+      if (key === 0 || key === 1 || key.length >= plain_text.length) {
+        result = false;
+      }
+
+      return result;
+    }
+
+    ciphering(plain_text, key) {
+      let cipher_text = ``;
+      function cipher() {
+        const result = new Array(key).fill("");
+
+        let direction = 1;
+        let currentRail = 0;
+
+        for (let char of plain_text) {
+          result[currentRail] += char;
+          currentRail += direction;
+
+          if (currentRail === 0 || currentRail === key - 1) {
+            direction *= -1;
+          }
+        }
+
+        return result.join("");
+      }
+
+      if ( !this.isValidKey(key) ) {
+        return cipher_text;
+      }
+
+      if( !this.isNecessaryToCipher(plain_text, key) ) {
+        cipher_text = plain_text;
+        return cipher_text;
+      }
+
+      cipher_text = cipher();
+
+      return cipher_text;
+
+    }
+
+    decoding(cipher_text, key) {
+      let plain_text = ``;
+
+      function decode() {
+        let result = ``;
+        const railPositions = new Array(cipher_text.length).fill(0);
+
+        let direction = 1;
+        let currentRail = 0;
+
+        for (let i = 0; i < cipher_text.length; i++) {
+          railPositions[i] = currentRail;
+          currentRail += direction;
+
+          if (currentRail === 0 || currentRail === key - 1) {
+            direction *= -1;
+          }
+        }
+
+        const rails = new Array(key).fill("").map(() => []);
+
+        let index = 0;
+        for (let i = 0; i < key; i++) {
+          for (let j = 0; j < cipher_text.length; j++) {
+            if (railPositions[j] === i) {
+              rails[i].push(cipher_text[index]);
+              index++;
+            }
+          }
+        }
+
+        currentRail = 0;
+        direction = 1;
+
+        for (let i = 0; i < cipher_text.length; i++) {
+          result += rails[currentRail].shift();
+          currentRail += direction;
+
+          if (currentRail === 0 || currentRail === key - 1) {
+            direction *= -1;
+          }
+        }
+
+        return result;
+
+      }
+
+      if ( !this.isValidKey(key) ) {
+        return plain_text;
+      }
+
+      if( !this.isNecessaryToCipher(cipher_text, key) ) {
+        plain_text = cipher_text;
+        return plain_text;
+      }
+
+      plain_text = decode();
+
+      return plain_text;
+    }
+
+
+
+  }
+
+  class Vigenere extends Algorithm {
+    LetterCount = 33;
+    keyAdaptation(key) {
+      return this.formatText(key);
+    }
+
+    shiftKey(key) {
+      for (let i = 0; i < key.length; i++) {
+        if (key[i] === 'я') {
+          key[i] = 'а';
+        } else if (key[i] === 'ё') {
+          key[i] = 'ж';
+        } else {
+          key[i] = String.fromCharCode(key[i].charCodeAt(0) + 1);
+        }
+      }
+      return key;
+    }
+
+    ciphering(plainText, key) {
+
+      if (key === "") return "";
+
+      let resultText = plainText.toLowerCase();
+      let progressiveKey = key.split('');
+      let letterArray = new Array(this.LetterCount);
+      let letter = 0;
+
+      for (let i = 'а'.charCodeAt(0); i <= 'я'.charCodeAt(0); i++) {
+        if (letter === 6) {
+          letterArray[letter++] = 'ё';
+        }
+        letterArray[letter++] = String.fromCharCode(i);
+      }
+
+      let sbCipherText = '';
+      let index = 0;
+      let c = 0;
+
+      for (let i = 0; i < resultText.length; i++) {
+        let keyLetter = key[index % key.length];
+        let changedLetter;
+
+        if (resultText[i] === 'ё') {
+          changedLetter = 6;
+        } else {
+          changedLetter = resultText[i] <= 'е' ? resultText[i].charCodeAt(0) - 'а'.charCodeAt(0) : resultText[i].charCodeAt(0) - 'а'.charCodeAt(0) + 1;
+        }
+
+        switch (keyLetter) {
+          case 'ё':
+            sbCipherText += letterArray[(changedLetter + 6) % this.LetterCount];
+            break;
+
+          case 'а':
+          case 'б':
+          case 'в':
+          case 'г':
+          case 'д':
+          case 'е':
+          {
+            let changedKeyLetter = keyLetter.charCodeAt(0) - 'а'.charCodeAt(0);
+            sbCipherText += letterArray[(changedLetter + changedKeyLetter) % this.LetterCount];
+            break;
+          }
+
+          default:
+          {
+            let changedKeyLetter = keyLetter.charCodeAt(0) - 'а'.charCodeAt(0) + 1;
+            sbCipherText += letterArray[(changedLetter + changedKeyLetter) % this.LetterCount];
+            break;
+          }
+        }
+
+        index++;
+        c++;
+        if (c === key.length) {
+          progressiveKey = this.shiftKey(progressiveKey);
+          key = progressiveKey.join('');
+          c = 0;
+        }
+      }
+
+      return sbCipherText;
+    }
+
+    decoding(cipher, key) {
+      if (key === "") return "";
+
+      let resultText = cipher.toLowerCase();
+      let progressiveKey = key.split('');
+      let letterArray = new Array(this.LetterCount);
+      let letter = 0;
+
+      for (let i = 'а'.charCodeAt(0); i <= 'я'.charCodeAt(0); i++) {
+        if (letter === 6) {
+          letterArray[letter++] = 'ё';
+        }
+        letterArray[letter++] = String.fromCharCode(i);
+      }
+
+      let sbPlainText = '';
+      let index = 0;
+      let c = 0;
+
+      for (let i = 0; i < resultText.length; i++) {
+        let keyLetter = key[index % key.length];
+        let changedLetter;
+
+        if (resultText[i] === 'ё') {
+          changedLetter = 6;
+        } else {
+          changedLetter = resultText[i] <= 'е' ? resultText[i].charCodeAt(0) - 'а'.charCodeAt(0) : resultText[i].charCodeAt(0) - 'а'.charCodeAt(0) + 1;
+        }
+
+        switch (keyLetter) {
+          case 'ё':
+            sbPlainText += letterArray[(changedLetter + (this.LetterCount - 6)) % this.LetterCount];
+            break;
+
+          case 'а':
+          case 'б':
+          case 'в':
+          case 'г':
+          case 'д':
+          case 'е':
+          {
+            let changedKeyLetter = keyLetter.charCodeAt(0) - 'а'.charCodeAt(0);
+            sbPlainText += letterArray[(changedLetter + (this.LetterCount - changedKeyLetter)) % this.LetterCount];
+            break;
+          }
+
+          default:
+          {
+            let changedKeyLetter = keyLetter.charCodeAt(0) - 'а'.charCodeAt(0) + 1;
+            sbPlainText += letterArray[(changedLetter + (this.LetterCount - changedKeyLetter)) % this.LetterCount];
+            break;
+          }
+        }
+
+        index++;
+        c++;
+        if (c === key.length) {
+          progressiveKey = this.shiftKey(progressiveKey);
+          key = progressiveKey.join('');
+          c = 0;
+        }
+      }
+
+      return sbPlainText;
+    }
+
+
+  }
+
+  const input_left =
+    document.getElementsByClassName("welcome__text_input_left")[0];
+  const input_right =
+    document.getElementsByClassName("welcome__text_input_right")[0];
+
+
+  const key_left =
+    document.getElementsByClassName("welcome__text_key_left")[0];
+  const key_right =
+    document.getElementsByClassName("welcome__text_key_right")[0];
+
+
+  const ciphering_left =
+    document.getElementsByClassName("cipher_left")[0];
+  const ciphering_right =
+    document.getElementsByClassName("cipher_right")[0];
+
+
+  const decoding_left =
+    document.getElementsByClassName("decode_left")[0];
+  const decoding_right =
+    document.getElementsByClassName("decode_right")[0];
+
+
+  const input_file_left =
+    document.getElementsByClassName("hidden_left")[0];
+  const input_file_right =
+    document.getElementsByClassName("hidden_right")[0];
+  const link_left =
+    document.getElementsByClassName("link_left")[0];
+  const link_right =
+    document.getElementsByClassName("link_right")[0];
+
+
+  const output_left =
+    document.getElementsByClassName("welcome__text_output_left")[0];
+  const output_right =
+    document.getElementsByClassName("welcome__text_output_right")[0];
+
+
+  const download_left =
+    document.getElementsByClassName("download_left")[0];
+  const download_right =
+    document.getElementsByClassName("download_right")[0];
+
+  const aRail_Fence = new Rail_Fence();
+  const aVigenere = new Vigenere();
+
+  input_left.addEventListener("click", () => {
+    input_left.value = ``;
+    output_left.value = ``;
+  });
+
+  input_right.addEventListener("click", () => {
+    input_right.value = ``;
+    output_right.value = ``;
+  });
+
+  ciphering_left.addEventListener("click", (e) => {
+    e.preventDefault();
+    let plain_text = input_left.value;
+    let key = key_left.value;
+
+    console.log(`Введённый текст: ${plain_text}`);
+    console.log(`Введённый ключ: ${key}`);
+
+    plain_text = aRail_Fence.formatText(plain_text);
+    key = aRail_Fence.keyAdaptation(key);
+
+    console.log(`Форматированный текст: ${plain_text}`);
+    console.log(`Адаптированный ключ: ${key}`);
+
+    let cipher_text = aRail_Fence.ciphering(plain_text, key);
+    console.log(`Результат шифрования: ${cipher_text}`);
+
+    output_left.value = cipher_text;
+    key_left.value = ``;
+  });
+
+  ciphering_right.addEventListener("click", (e) => {
+    e.preventDefault();
+    let plain_text = input_right.value;
+    let key = key_right.value;
+
+    console.log(`Введённый текст: ${plain_text}`);
+    console.log(`Введённый ключ: ${key}`);
+
+    plain_text = aVigenere.formatText(plain_text);
+    key = aVigenere.keyAdaptation(key);
+
+    console.log(`Форматированный текст: ${plain_text}`);
+    console.log(`Адаптированный ключ: ${key}`);
+
+    let cipher_text = aVigenere.ciphering(plain_text, key);
+    console.log(`Результат шифрования: ${cipher_text}`);
+
+    output_right.value = cipher_text;
+    key_right.value = ``;
+  });
+
+  decoding_left.addEventListener("click", (e) => {
+    e.preventDefault();
+    let cipher_text = input_left.value;
+    let key = key_left.value;
+
+    console.log(`Введённый текст: ${cipher_text}`);
+    console.log(`Введённый ключ: ${key}`);
+
+    cipher_text = aRail_Fence.formatText(cipher_text);
+    key = aRail_Fence.keyAdaptation(key);
+
+    console.log(`Форматированный текст: ${cipher_text}`);
+    console.log(`Адаптированный ключ: ${key}`);
+
+    let plain_text = aRail_Fence.decoding(cipher_text, key);
+    console.log(`Результат дешифрирования: ${plain_text}`);
+
+    output_left.value = plain_text;
+    key_left.value = ``;
+  });
+
+  decoding_right.addEventListener("click", (e) => {
+    e.preventDefault();
+    let cipher_text = input_right.value;
+    let key = key_right.value;
+
+    console.log(`Введённый текст: ${cipher_text}`);
+    console.log(`Введённый ключ: ${key}`);
+
+    cipher_text = aVigenere.formatText(cipher_text);
+    key = aVigenere.keyAdaptation(key);
+
+    console.log(`Форматированный текст: ${cipher_text}`);
+    console.log(`Адаптированный ключ: ${key}`);
+
+    let plain_text = aVigenere.decoding(cipher_text, key);
+    console.log(`Результат дешифрирования: ${plain_text}`);
+
+    output_right.value = plain_text;
+    key_right.value = ``;
+  });
+
+  link_left.addEventListener("click", (e) => {
+    e.preventDefault();
+    input_file_left.click();
+  });
+
+  input_file_left.addEventListener("change", (e) => {
+    const input = e.target;
+
+    aRail_Fence.readFile(input)
+      .then( (text) => {
+        console.log(`Прочитанный текст: ${text}`);
+        input_left.value = text;
+      })
+      .catch( (err) => {
+        alert(`При чтении файла возникла ошибка ${err}`);
+      });
+
+  });
+
+  link_right.addEventListener("click", (e) => {
+    e.preventDefault();
+    input_file_right.click();
+  });
+
+  input_file_right.addEventListener("change", (e) => {
+    const input = e.target;
+
+    aVigenere.readFile(input)
+      .then( (text) => {
+        console.log(`Прочитанный текст: ${text}`);
+        input_right.value = text;
+      })
+      .catch((err) => {
+        alert(`При чтении файла возникла ошибка ${err}`);
+      });
+  });
+
+  download_left.addEventListener("click", (e) => {
+    console.log(`Данные для записи в файл:${output_left.value}`);
+    aRail_Fence.writeFile(e.target, output_left.value);
+    output_left.value = ``;
+  });
+
+  download_right.addEventListener("click", (e) => {
+    console.log(`Данные для записи в файл:${output_right.value}`);
+    aVigenere.writeFile(e.target, output_right.value);
+    output_right.value = ``;
+  });
+</script>
+</body>
+</html>
