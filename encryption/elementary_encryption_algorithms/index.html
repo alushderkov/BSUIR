@@ -908,6 +908,19 @@
     aVigenere.writeFile(e.target, output_right.value);
     output_right.value = ``;
   });
+
+  let btns = document.getElementsByClassName("btn");
+  console.log(btns);
+
+  btns = [...btns];
+  console.log(btns);
+
+  btns.forEach(item => {
+    item.addEventListener("click", (e) => {
+        e.preventDefault();
+    });
+  });
+
 </script>
 </body>
 </html>
