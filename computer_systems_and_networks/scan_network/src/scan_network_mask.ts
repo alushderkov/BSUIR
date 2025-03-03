@@ -44,37 +44,63 @@ function calculateIpRange(ip: string, netmask: string): string[] {
 
   const ipRange: string[] = [];
   for (let i = network[3] + 1; i < broadcast[3]; i++) {
-    ipRange.push(`${network[0]}.${network[1]}.${network[2]}.${i}`);
+    const ipAddress = `${network[0]}.${network[1]}.${network[2]}.${i}`;
+    if (isRealDevice(ipAddress)) {
+      ipRange.push(ipAddress);
+    }
   }
 
   return ipRange;
 }
 
 // Функция для сканирования сети с перебором адресов
-async function scanNetwork(ipRange: string[]): Promise<NodeInfo[]> {
+async function scanNetwork(ipRange: string[], localIp: string, localMac: string): Promise<NodeInfo[]> {
   const nodes: NodeInfo[] = [];
 
-  for (const ip of ipRange) {
+  // Параллельное выполнение ping-запросов
+  const pingPromises = ipRange.map(async (ip) => {
     try {
-      // Пинг узла (Windows использует `ping -n 1`)
       await execAsync(`ping -n 1 ${ip}`);
-      console.log(`Node ${ip} is active.`);
+      return ip;
+    } catch (error) {
+      return null;
+    }
+  });
 
-      // Получение MAC-адреса через ARP
-      const { stdout: arpOutput } = await execAsync(`arp -a ${ip}`);
-      const mac = parseMacAddress(arpOutput);
+  const activeIps = (await Promise.all(pingPromises)).filter(ip => ip !== null) as string[];
+
+  // Параллельное выполнение ARP-запросов и DNS-запросов
+  const nodePromises = activeIps.map(async (ip) => {
+    try {
+      // Если это локальный IP, используем локальный MAC-адрес
+      let mac = ip === localIp ? localMac : parseMacAddress((await execAsync(`arp -a ${ip}`)).stdout);
+
+      // Если MAC-адрес неизвестен, выполняем дополнительный ARP-запрос
+      if (mac === 'Unknown') {
+        console.warn(`MAC-адрес для узла ${ip} неизвестен. Выполняю дополнительный ARP-запрос...`);
+        await execAsync(`ping -n 1 ${ip}`); // Пинг для обновления ARP-таблицы
+        const { stdout: arpOutput } = await execAsync(`arp -a ${ip}`);
+        mac = parseMacAddress(arpOutput);
+      }
+
+      // Если MAC-адрес всё ещё неизвестен, выводим предупреждение
+      if (mac === 'Unknown') {
+        console.warn(`MAC-адрес для узла ${ip} остаётся неизвестным. Возможно, устройство не отвечает на ARP-запросы.`);
+      }
 
       // Получение имени узла через DNS
       const hostnames = await reverseDnsAsync(ip);
       const hostname = hostnames.length > 0 ? hostnames[0] : 'Unknown';
 
-      nodes.push({ ip, mac, hostname });
+      return { ip, mac, hostname };
     } catch (error) {
-      // Узел не ответил на ping
-      console.log(`Node ${ip} is inactive or unreachable.`);
+      return null;
     }
-  }
+  });
 
+  const discoveredNodes = (await Promise.all(nodePromises)).filter(node => node !== null) as NodeInfo[];
+
+  nodes.push(...discoveredNodes);
   return nodes;
 }
 
@@ -124,12 +150,10 @@ async function main() {
         console.log(`Scanning network ${address.address}/${address.netmask}...`);
 
         // Сканируем сеть
-        const nodes = await scanNetwork(ipRange);
+        const nodes = await scanNetwork(ipRange, address.address, address.mac);
         console.log('Discovered nodes:');
         nodes.forEach(node => {
-          if (isRealDevice(node.ip)) { // Фильтруем служебные адреса
-            console.log(`IP: ${node.ip}, MAC: ${node.mac}, Hostname: ${node.hostname}`);
-          }
+          console.log(`IP: ${node.ip}, MAC: ${node.mac}, Hostname: ${node.hostname}`);
         });
       }
     }
