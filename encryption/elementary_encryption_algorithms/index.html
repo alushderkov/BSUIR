@@ -808,6 +808,10 @@
     plain_text = aVigenere.formatText(plain_text);
     key = aVigenere.keyAdaptation(key);
 
+    if (key === ``) {
+      alert(`Ошибка, ключ не распознан. Попробуйте ввести заново`);
+    }
+
     console.log(`Форматированный текст: ${plain_text}`);
     console.log(`Адаптированный ключ: ${key}`);
 
@@ -849,6 +853,10 @@
 
     cipher_text = aVigenere.formatText(cipher_text);
     key = aVigenere.keyAdaptation(key);
+
+    if (key === ``) {
+      alert(`Ошибка, ключ не распознан. Попробуйте ввести заново`);
+    }
 
     console.log(`Форматированный текст: ${cipher_text}`);
     console.log(`Адаптированный ключ: ${key}`);
